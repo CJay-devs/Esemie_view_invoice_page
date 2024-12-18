@@ -58,6 +58,7 @@ export type InvoiceData = {
 };
 
 export type PaymentData = {
+    invoiceNumber: string;
     entityType: string;
     companyId: string;
     entityId: string;

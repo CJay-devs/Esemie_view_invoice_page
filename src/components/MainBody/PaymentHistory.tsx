@@ -12,7 +12,7 @@ const PaymentHistory = () => {
     }, [loadPaymentData]);
 
     return (
-        <section className="mt-10 ml-main-body-ml mr-8 mb-16  border-2 border-b-0 border-gray-100 rounded-t-2xl max-lg:hidden">
+        <section className="mt-10 ml-main-body-ml mr-8 mb-16 border-2 border-b-0 border-gray-100 rounded-t-2xl max-lg:hidden">
             <h2 className="p-6 text-lg font-semibold">Record Payment History</h2>
             <table className="w-full">
                 <thead className="max-md:hidden">
@@ -26,24 +26,26 @@ const PaymentHistory = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {paymentData ? (
+                    {paymentData && paymentData.length > 0 ? (
                         paymentData.map((item) => (
                             <tr key={item.id} className="border-b border-slate-200 h-20 hover:bg-sky-50">
-                                <td className="pl-3">None</td> {/* Assuming entityId is the invoice number */}
+                                <td className="pl-3">{item.invoiceNumber}</td>
                                 <td className="pl-3">{item.paymentType}</td>
                                 <td className="pl-3">{item.paymentMethod}</td>
-                                <td className="pl-3">{<DateFormatter date={item.paymentDate} />}</td>
+                                <td className="pl-3">
+                                    <DateFormatter date={item.paymentDate} />
+                                </td>
                                 <td className="pl-3">{`₦${item.amount.toLocaleString()}`}</td>
                                 <td className="w-20 mx-4">
                                     <button className="w-[50px] p-4 flex justify-center items-center bg-slate-100 rounded-md hover:bg-slate-200">
-                                        {<AiOutlineDownload />}
+                                        <AiOutlineDownload />
                                     </button>
                                 </td>
                             </tr>
                         ))
                     ) : (
                         <tr>
-                            <td colSpan={5} className="text-center">
+                            <td colSpan={6} className="text-center">
                                 Loading payment data...
                             </td>
                         </tr>
