@@ -1,0 +1,63 @@
+{
+    "currency": "NGN",
+    "issueDate": "2022-08-12T00:00:00.000Z",
+    "companyId": "65ed5045-8a67-46a1-81d6-9743cab2cd71",
+    "invoiceDueAt": "2022-08-12T00:00:00.000Z",
+    "status": "due",
+    "totalPaid": 100000,
+    "id": "e716b375-e6d2-4491-90d6-e936398e3001",
+    "exchangeRate": 1,
+    "invoiceNumber": "INV-001",
+    "shouldSendEmail": false,
+    "total": 200000,
+    "createdAt": "2022-08-12T00:00:00.000Z",
+    "isPaymentCompleted": false,
+    "shouldSendWhatsApp": false,
+    "shouldSendSMS": true,
+    "invoiceType": "inventory",
+    "updatedAt": "2024-12-04T00:00:07.102Z",
+    "inventories": [
+        {
+            "name": "Aso Oke",
+            "rate": 10000,
+            "quantity": 10,
+            "id": "c1f8da0e-37a7-43f2-9c71-5ad7ead6d804"
+        },
+        {
+            "name": "Aso Oke",
+            "rate": 10000,
+            "quantity": 10,
+            "id": "c1f8da0e-37a7-43f2-9c71-5ad7ead6d804"
+        }
+    ],
+    "customer": {
+        "lastName": "Audu",
+        "firstName": "Kelly",
+        "address": "Illasan New Road, Ikate",
+        "city": "Lekki",
+        "state": "Lagos",
+        "id": "6ef97d28-6946-4948-96da-6ecac8927c4b",
+        "phone": "+2348123456789",
+        "email": "kelly.audu@example.io"
+    },
+    "balanceDue": 100000,
+    "customerId": "6ef97d28-6946-4948-96da-6ecac8927c4b",
+    "annotations": [
+        {
+            "action": "created",
+            "cognitoUserId": "54bc1263-4361-435b-b1c0-f36cae02d0d4",
+            "timestamp": "2024-12-03T06:25:34.205Z",
+            "name": "Ghost Hub"
+        }
+    ],
+    "bankAccounts": [
+        {
+            "bankName": "UBA",
+            "currency": "NGN",
+            "id": "ed384159-73b3-4ad4-b8ad-132cba8f1cf1",
+            "accountNumber": "00100010056",
+            "isActive": true,
+            "accountName": "ESEMIE NIGERIA LIMITED"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "entityType": "revenue",
+        "companyId": "65ed5045-8a67-46a1-81d6-9743cab2cd71",
+        "entityId": "e716b375-e6d2-4491-90d6-e936398e3001",
+        "status": "successful",
+        "createdAt": "2024-10-12T18:49:32.881Z",
+        "outletId#status": "undefined#successful",
+        "paymentDate": "2024-10-12",
+        "entityId#status": "e716b375-e6d2-4491-90d6-e936398e3001#successful",
+        "amount": 100000,
+        "id": "681a307d-e389-4f48-80b4-d6e872413320",
+        "paymentMethod": "transfer",
+        "paymentType": "manual",
+        "customerId": "6ef97d28-6946-4948-96da-6ecac8927c4b"
+    },
+    {
+        "entityType": "revenue",
+        "companyId": "65ed5045-8a67-46a1-81d6-9743cab2cd71",
+        "entityId": "e716b375-e6d2-4491-90d6-e936398e3001",
+        "status": "successful",
+        "createdAt": "2024-10-12T18:49:32.881Z",
+        "outletId#status": "undefined#successful",
+        "paymentDate": "2024-10-12",
+        "entityId#status": "e716b375-e6d2-4491-90d6-e936398e3001#successful",
+        "amount": 100000,
+        "id": "681a307d-e389-4f48-80b4-d6e872413320",
+        "paymentMethod": "cash",
+        "paymentType": "uploaded",
+        "customerId": "6ef97d28-6946-4948-96da-6ecac8927c4b",
+        "receiptKey": "https://google.com"
+    }
+]
