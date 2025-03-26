@@ -1,6 +1,6 @@
 # Esemie View Invoice
 
-![Esemie View Invoice](view_invoice/public/screens.png)
+![Esemie View Invoice](public/screens.png)
 
 ## Overview
 
